@@ -524,7 +524,7 @@ void OutputALGraph(ALGraph G)
 void Input(FILE *fp, InfoType *info)
 {
 	//录入弧的信息，本文档涉及到的弧默认无其他信息
-#if defined CRITICALPATH_H ||
+#if defined CRITICALPATH_H ||\
     defined Question_7
 	Scanf(fp, "%d", &(info->in));
 #endif

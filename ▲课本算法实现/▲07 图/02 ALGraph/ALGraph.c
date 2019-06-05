@@ -500,7 +500,7 @@ void BFSTraverse_AL(ALGraph G, void (Visit)(VertexType_AL))
 
 void OutputALGraph(ALGraph G)
 {
-	int i, j;
+	int i;
 	ArcNode *p;
 	
 	if(!G.vexnum && !G.arcnum)
